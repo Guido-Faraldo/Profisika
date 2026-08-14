@@ -274,7 +274,7 @@ function transfromarTextoAMensaje(listaTurnos){
         let dia = transformarDia(listaMesDia.at(-1));
         let hora = transformarHora(lineas[2]);
 
-        let lineaDeTurno = `*${dia} ${lineas[0]}/${mes} - ${hora}`;
+        let lineaDeTurno = `* ${dia} ${lineas[0]}/${mes} - ${hora}`;
         listaTurnosMensajeCompleto.push(lineaDeTurno);
     }
 }
